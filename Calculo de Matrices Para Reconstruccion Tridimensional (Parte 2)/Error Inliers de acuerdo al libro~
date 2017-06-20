@@ -1,0 +1,16 @@
+
+('it: ', 1, 'inliers: ', 110, '/', 147, 'Error: ', array([  6.93678182e+03,   1.14978582e-07]), 'N: ', 44.500523)
+('it: ', 2, 'inliers: ', 143, '/', 147, 'Error: ', array([  7.30769231e+03,   8.81227577e-08]), 'N: ', 2.8440018)
+Traceback (most recent call last):
+  File "prueba.py", line 34, in <module>
+    FDenormalizada, vector8Muestras, vectorInliers = objEjecutorDeRansacVersion2.ejecutaRansac(vectorPuntosUno, vectorPuntosDos)
+  File "/home/mnkboy/Dropbox/UADY/Semestre2/Vision Tridimensional/CodigosEnPython/Reconstruccion 13-11-2014/PruebaAcordeAlLibro/EjecutorDeRansacVersion2.py", line 176, in ejecutaRansac
+    if (len(vectorInliers) > cantidadMaximaDeInliers or (len(vectorInliers) == cantidadMaximaDeInliers and errorDeInliers < mejorErrorDeInliers)):		
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+
+------------------
+(program exited with code: 1)
+Press return to continue
+
+
